@@ -1,0 +1,39 @@
+/* body element */
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+#content {
+	margin-top: 3px;
+	height: 140px;
+	overflow: hidden;
+	overflow-wrap: break-word;
+	padding: 5px;
+}
+
+.change {
+	height: 25px;
+}
+
+#input {
+	outline-style: none;
+}
+
+.activeWord {
+	border-radius: 10px;
+	padding-left: 3px;
+}
+
+.scoreUp,
+.scoreDown {
+	height: 10px;
+	border-radius: 5px;
+	margin-top: 3px;
+	padding: 3px;
+}
+
+.speed-image {
+	width: 70%;
+	height: 70%;
+	padding-bottom: 10px;
+}

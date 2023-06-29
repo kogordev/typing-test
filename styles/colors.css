@@ -1,0 +1,51 @@
+:root {
+	--bg-active: rgb(149, 117, 222);
+	--dark-color: rgb(101, 84, 175);
+	--bg-pr: rgb(233, 102, 160);
+}
+
+.bg-pr {
+	background: rgb(43, 39, 48);
+}
+
+.bg-sc {
+	background-color: var(--bg-pr);
+}
+
+.bg-l {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.text-w {
+	color: white;
+}
+
+.text-b {
+	color: black;
+}
+
+.scoreDown {
+	background: mediumvioletred;
+}
+
+.scoreUp {
+	background: greenyellow;
+	color: black;
+}
+
+.activeWord {
+	background: var(--bg-active);
+}
+
+.correctCharacter {
+	color: rgb(190, 190, 190);
+}
+
+.wrongCharacter {
+	color: red;
+}
+
+.btn-primary,
+.btn {
+	background: var(--bg-pr);
+}
